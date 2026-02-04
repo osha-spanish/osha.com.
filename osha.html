@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Entrenamiento En Línea Autorizado Por Osha. Nos especializamos en capacitación en línea en seguridad para programas de Capacitación de Extensión de OSHA, Entrenamiento HAZWOPER, seguridad en la construcción y cursos de capacitación en seguridad general." />
+    <meta name="keywords" content="osha 10-hour,osha 30-hour,osha outreach,osha training,hazwoper training,safety training,online osha,osha certification" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento En Línea Autorizado Por Osha - OSHA.com</title>
+    
+    <style>
+        /* Estilos básicos y reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Header */
+        .header {
+            background: #fff;
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .header__logo img {
+            max-height: 60px;
+        }
+        
+        /* Navbar */
+        .navmain {
+            background: #343a40 !important;
+        }
+        
+        .navmain-navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 15px;
+        }
+        
+        .navmain-brand {
+            color: #fff !important;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px 15px;
+            white-space: nowrap;
+        }
+        
+        .navbar-toggler {
+            display: none;
+            border: none;
+            background: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .nav-items-container {
+            display: flex;
+            flex-grow: 1;
+        }
+        
+        .nav-items {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        .nav-item {
+            position: relative;
+            flex: 1;
+            text-align: center;
+        }
+        
+        .nav-item > a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 10px;
+            display: block;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+        
+        .nav-item > a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        /* Hero Section */
+        .herohead {
+            background: linear-gradient(135deg, #00419e 0%, #0b86b7 100%);
+            color: white;
+            padding: 60px 0;
+        }
+        
+        .text-white {
+            color: white !important;
+        }
+        
+        .text-cta {
+            color: #ffcc00 !important;
+        }
+        
+        .course__card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background: white;
+        }
+        
+        /* CORRECCIÓN 2: Texto negro en las cards */
+        .course__card h4.text-primary {
+            color: #000000 !important; /* Negro en lugar del color original */
+        }
+        
+        .course__card a.fw-bold {
+            color: #000000 !important; /* Negro para el enlace "Más Información" */
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: #00419e;
+            color: white !important;
+        }
+        
+        .btn-primary:hover {
+            background: #0b86b7;
+        }
+        
+        .btn-cta {
+            background: #ffcc00;
+            color: #333 !important;
+        }
+        
+        /* Featured Categories */
+        #featured-categories {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+        
+        .category__card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            height: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            background: white;
+        }
+        
+        /* CORRECCIÓN 3: Asegurar que haya botón de compra */
+        .category__card .category__summary ul {
+            margin-bottom: 20px;
+        }
+        
+        .category__card .category__summary h5.on-sale {
+            margin-bottom: 20px;
+        }
+        
+        /* Top Courses */
+        #top-courses {
+            padding: 60px 0;
+        }
+        
+        .course__group-title {
+            background: #00419e;
+            color: white;
+            padding: 15px;
+            border-radius: 5px 5px 0 0;
+            margin: 0;
+        }
+        
+        /* Sections generales */
+        section {
+            padding: 60px 0;
+        }
+        
+        .full-width {
+            width: 100%;
+        }
+        
+        .container-max {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 40px 0 20px;
+        }
+        
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            color: #ffcc00;
+        }
+        
+        /* Utilidades */
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+        .text-right { text-align: right; }
+        
+        .mb-3 { margin-bottom: 1rem; }
+        .mb-4 { margin-bottom: 1.5rem; }
+        .mb-5 { margin-bottom: 3rem; }
+        
+        .mt-3 { margin-top: 1rem; }
+        .mt-4 { margin-top: 1.5rem; }
+        .mt-5 { margin-top: 3rem; }
+        
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        
+        .px-0 { padding-left: 0; padding-right: 0; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .py-4 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+        
+        .d-flex { display: flex; }
+        .d-none { display: none; }
+        .d-block { display: block; }
+        
+        .flex-column { flex-direction: column; }
+        .flex-wrap { flex-wrap: wrap; }
+        
+        .justify-content-center { justify-content: center; }
+        .justify-content-between { justify-content: space-between; }
+        .justify-content-space-between { justify-content: space-between; }
+        
+        .align-items-center { align-items: center; }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+        
+        .col {
+            flex: 1;
+            padding: 0 15px;
+        }
+        
+        .col-12 { width: 100%; padding: 0 15px; }
+        .col-md-6 { width: 50%; padding: 0 15px; }
+        .col-lg-4 { width: 33.333%; padding: 0 15px; }
+        
+        /* CORRECCIÓN 1: Navbar horizontal */
+        @media (max-width: 992px) {
+            .navbar-toggler {
+                display: block;
+            }
+            
+            .nav-items-container {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #343a40;
+                z-index: 1000;
+            }
+            
+            .nav-items-container.active {
+                display: block;
+            }
+            
+            .nav-items {
+                flex-direction: column;
+            }
+            
+            .nav-item {
+                width: 100%;
+                text-align: left;
+            }
+            
+            .nav-item > a {
+                padding: 15px 20px;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .col-md-6, .col-lg-4 {
+                width: 100%;
+            }
+        }
+        
+        /* Switch de idioma */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+        }
+        
+        input:checked + .slider {
+            background-color: #00419e;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        
+        .slider.round {
+            border-radius: 34px;
+        }
+        
+        .slider.round:before {
+            border-radius: 50%;
+        }
+        
+        /* Estilos específicos */
+        .course__price--original {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.2em;
+        }
+        
+        .course__price--discount {
+            color: #d9534f;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        h1 { font-size: 2.5em; margin-bottom: 20px; }
+        h2 { font-size: 2em; margin-bottom: 15px; color: #00419e; }
+        h3 { font-size: 1.5em; margin-bottom: 12px; color: #00419e; }
+        h4 { font-size: 1.3em; margin-bottom: 10px; }
+        h5 { font-size: 1.1em; margin-bottom: 8px; }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #00419e;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+        
+        .osha-blue {
+            background: #00419e;
+            color: white;
+        }
+        
+        .bg-light {
+            background: #f8f9fa !important;
+        }
+        
+        .bg-white {
+            background: white !important;
+        }
+        
+        .rounded-0 {
+            border-radius: 0 !important;
+        }
+        
+        .fw-bold {
+            font-weight: bold !important;
+        }
+        
+        /* Custom dropdown */
+        .custom-dropdown {
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        .custom-dropdown__toggle {
+            background: #ffcc00;
+            color: #333;
+            border: none;
+            padding: 12px 20px;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+        }
+        
+        .custom-dropdown__panel {
+            display: none;
+            background: white;
+            border: 1px solid #ddd;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+        
+        .custom-dropdown:hover .custom-dropdown__panel {
+            display: block;
+        }
+        
+        .custom-dropdown__list {
+            margin: 0;
+            list-style: none;
+        }
+        
+        .custom-dropdown__button {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .custom-dropdown__button:hover {
+            background: #f8f9fa;
+        }
+        
+        .btn-outline-primary {
+            background: transparent;
+            border: 2px solid #00419e;
+            color: #00419e;
+        }
+        
+        .btn-outline-primary:hover {
+            background: #00419e;
+            color: white;
+        }
+        
+        /* Testimonios */
+        .testimonials {
+            background: #f8f9fa;
+            padding: 40px 0;
+        }
+        
+        /* Ajustes de espaciado */
+        .course__card .d-flex {
+            flex-wrap: wrap;
+        }
+        
+        .course__card .d-flex > div {
+            margin-bottom: 10px;
+        }
+        
+        .course__card .mt-3 {
+            width: 100%;
+            text-align: center;
+        }
+        
+        /* Para los cursos en hero section */
+        .course__card h4 {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="page osha_com homepage">
+        <header class="header">
+            <div class="container-max">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="header__logo">
+                            <a href="#"><img src="https://www.osha.com/themes/custom/osha/dist/img/Logo_Main_ExportasSVG.svg" class="img-fluid" alt="OSHA.com Online OSHA Training"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CORRECCIÓN 1: Navbar horizontal -->
+        <nav class="navmain">
+            <div class="container-max">
+                <div class="navmain-navbar">
+                    <a class="navmain-brand" href="#"><i class="fas fa-home"></i> OSHA.com</a>
+                    <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+                        ☰
+                    </button>
+                    <div class="nav-items-container" id="siteNavbar">
+                        <ul class="nav-items">
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('OSHA 10-Hour Courses')">OSHA 10-Hour</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('OSHA 30-Hour Courses')">OSHA 30-Hour</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('NYC SST Courses')">NYC SST</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('HAZWOPER Training')">HAZWOPER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('All OSHA Courses')">All Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('About OSHA Training')">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="return redirectToWhatsApp('Business Solutions')">For Business</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main">
+            <div class="herohead">
+                <div class="container-max">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="text-white">
+                                <h1 class="text-white">Entrenamiento En Línea <span class="text-cta">Autorizado Por Osha</span></h1>
+                                <h5 class="text-white">Nos especializamos en capacitación en línea en seguridad para programas de Capacitación de Extensión de OSHA, Entrenamiento HAZWOPER, seguridad en la construcción y cursos de capacitación en seguridad general.</h5>
+                                <ul class="my-4">
+                                    <li><h5 class="text-white">Proveedor de Capacitación OSHA #1 de Confianza por Más de 25 Años</h5></li>
+                                    <li><h5 class="text-white">Tarjeta Oficial del DOL de OSHA Enviada en Solo 2 Semanas</h5></li>
+                                    <li><h5 class="text-white">100% en Línea, Autodidacta Sin Temporizadores</h5></li>
+                                    <li><h5 class="text-white">Descuentos por Volumen + Soluciones Personalizadas para Empresas!</h5></li>
+                                </ul>
+                                
+                                <div class="my-3 text-center text-lg-left">
+                                    <label class="switch-label">
+                                        <span class="language-title">English</span> 
+                                        <span class="switch">
+                                            <input checked="checked" id="lang-switch" type="checkbox">
+                                            <span class="slider round">&nbsp;</span>
+                                        </span>
+                                    </label> 
+                                    <span class="fw-bold">Español</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <!-- CORRECCIÓN 2: Texto en negro para mejor visibilidad -->
+                            <div class="course__card bg-white mb-3">
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div style="flex: 2; min-width: 200px;">
+                                        <h4 style="color: #000000 !important;">Curso de Capacitación en Construcción OSHA de 10 Horas</h4>
+                                        <a href="#" onclick="return redirectToWhatsApp('Curso de Capacitación en Construcción OSHA de 10 Horas')" class="fw-bold" style="color: #000000 !important;">Más Información ></a>
+                                    </div>
+                                    <div class="text-end" style="flex: 1; min-width: 100px;">
+                                        <h4 class="course__price--original my-0">89.00</h4>
+                                        <h3 class="course__price--discount my-0">59.99</h3>
+                                    </div>
+                                    <div class="mt-3 mt-sm-0" style="width: 100%; text-align: center;">
+                                        <a class="btn btn-primary fw-bold px-4 py-2" href="#" onclick="return redirectToWhatsApp('Quiero comprar Curso de Capacitación en Construcción OSHA de 10 Horas - $59.99')">Comprar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="course__card bg-white mb-3">
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div style="flex: 2; min-width: 200px;">
+                                        <h4 style="color: #000000 !important;">Curso de Capacitación para la Industria General OSHA de 10 Horas</h4>
+                                        <a href="#" onclick="return redirectToWhatsApp('Curso de Capacitación para la Industria General OSHA de 10 Horas')" class="fw-bold" style="color: #000000 !important;">Más Información ></a>
+                                    </div>
+                                    <div class="text-end" style="flex: 1; min-width: 100px;">
+                                        <h4 class="course__price--original my-0">89.00</h4>
+                                        <h3 class="course__price--discount my-0">59.99</h3>
+                                    </div>
+                                    <div class="mt-3 mt-sm-0" style="width: 100%; text-align: center;">
+                                        <a class="btn btn-primary fw-bold px-4 py-2" href="#" onclick="return redirectToWhatsApp('Quiero comprar Curso de Capacitación para la Industria General OSHA de 10 Horas - $59.99')">Comprar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="course__card bg-white mb-3">
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div style="flex: 2; min-width: 200px;">
+                                        <h4 style="color: #000000 !important;">Curso de Capacitación en Construcción OSHA de 30 Horas</h4>
+                                        <a href="#" onclick="return redirectToWhatsApp('Curso de Capacitación en Construcción OSHA de 30 Horas')" class="fw-bold" style="color: #000000 !important;">Más Información ></a>
+                                    </div>
+                                    <div class="text-end" style="flex: 1; min-width: 100px;">
+                                        <h4 class="course__price--original my-0">189.00</h4>
+                                        <h3 class="course__price--discount my-0">159.99</h3>
+                                    </div>
+                                    <div class="mt-3 mt-sm-0" style="width: 100%; text-align: center;">
+                                        <a class="btn btn-primary fw-bold px-4 py-2" href="#" onclick="return redirectToWhatsApp('Quiero comprar Curso de Capacitación en Construcción OSHA de 30 Horas - $159.99')">Comprar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="course__card bg-white mb-3">
+                                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                    <div style="flex: 2; min-width: 200px;">
+                                        <h4 style="color: #000000 !important;">Curso de Capacitación para la Industria General OSHA de 30 Horas</h4>
+                                        <a href="#" onclick="return redirectToWhatsApp('Curso de Capacitación para la Industria General OSHA de 30 Horas')" class="fw-bold" style="color: #000000 !important;">Más Información ></a>
+                                    </div>
+                                    <div class="text-end" style="flex: 1; min-width: 100px;">
+                                        <h4 class="course__price--original my-0">189.00</h4>
+                                        <h3 class="course__price--discount my-0">159.99</h3>
+                                    </div>
+                                    <div class="mt-3 mt-sm-0" style="width: 100%; text-align: center;">
+                                        <a class="btn btn-primary fw-bold px-4 py-2" href="#" onclick="return redirectToWhatsApp('Quiero comprar Curso de Capacitación para la Industria General OSHA de 30 Horas - $159.99')">Comprar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-md-flex bottom-herohead align-items-center mt-4">
+                                <div class="custom-dropdown position-relative mx-auto">
+                                    <button class="custom-dropdown__toggle d-flex justify-content-between align-items-center text-left mb-0 w-100 btn btn-cta fw-bold">
+                                        <span class="custom-dropdown__label">Seleccione Su Curso</span>
+                                        <span>▼</span>
+                                    </button>
+                                    <div class="custom-dropdown__panel">
+                                        <ul class="custom-dropdown__list">
+                                            <li><a class="custom-dropdown__button" href="#" onclick="return redirectToWhatsApp('Cursos OSHA 10-Horas')">OSHA 10-Horas</a></li>
+                                            <li><a class="custom-dropdown__button" href="#" onclick="return redirectToWhatsApp('Cursos OSHA 30-Horas')">OSHA 30-Horas</a></li>
+                                            <li><a class="custom-dropdown__button" href="#" onclick="return redirectToWhatsApp('Cursos NYC SST')">NYC SST</a></li>
+                                            <li><a class="custom-dropdown__button" href="#" onclick="return redirectToWhatsApp('Cursos HAZWOPER')">HAZWOPER</a></li>
+                                            <li><a class="custom-dropdown__button" href="#" onclick="return redirectToWhatsApp('Todos los Cursos OSHA')">Todos los Cursos</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="featured-categories" class="full-width">
+                <div class="container-max">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="category__card bg-white">
+                                <h3 class="text-primary text-center"><a href="#" onclick="return redirectToWhatsApp('Capacitación de 10 Horas de OSHA')">Capacitación de 10 Horas de OSHA</a></h3>
+                                <p>Aprenda la prevención esencial de riesgos de seguridad. Obtenga la certificación en OSHA 10 Construcción o Industria General y reciba su tarjeta del DOL en solo 2 semanas.</p>
+                                <ul>
+                                    <li><strong>Tarjeta Oficial del DOL de OSHA</strong></li>
+                                    <li>Guía de Estudio Gratis Incluida</li>
+                                </ul>
+                                <h5 class="on-sale text-center"><span class="fw-normal">¡En Oferta Ahora! </span><s><span class="fw-normal">$89</span></s> $59.99</h5>
+                                
+                                <!-- CORRECCIÓN 3: Agregar botón de compra para OSHA 10 horas -->
+                                <div class="mt-3 text-center">
+                                    <a class="btn btn-primary w-100 py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Quiero comprar Capacitación de 10 Horas de OSHA - $59.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="category__card bg-white">
+                                <h3 class="text-primary text-center"><a href="#" onclick="return redirectToWhatsApp('Capacitación de 30 Horas de OSHA')">Capacitación de 30 Horas de OSHA</a></h3>
+                                <p>Aprenda seguridad avanzada en el lugar de trabajo para supervisores. Obtenga la certificación en OSHA 30 Construcción o Industria General y reciba su tarjeta del DOL en solo 2 semanas.</p>
+                                <ul>
+                                    <li><strong>Tarjeta Oficial del DOL de OSHA</strong></li>
+                                    <li>Guía de Estudio Gratis Incluida</li>
+                                </ul>
+                                <h5 class="on-sale text-center"><span class="fw-normal">¡En Oferta Ahora! </span><s><span class="fw-normal">$189</span></s> $159.99</h5>
+                                <div class="mt-3">
+                                    <a class="btn btn-primary w-100 py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar 30 Horas Construcción - $159.99')">Comprar 30 Horas Construcción</a>
+                                    <a class="btn btn-primary w-100 py-2 fw-bold mt-2" href="#" onclick="return redirectToWhatsApp('Comprar 30 Horas Industria General - $159.99')">Comprar 30 Horas Industria General</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4 mb-4">
+                            <div class="category__card bg-white">
+                                <h3 class="text-primary text-center"><a href="#" onclick="return redirectToWhatsApp('Cursos HAZWOPER')">HAZWOPER</a></h3>
+                                <p>El Entrenamiento HAZWOPER protege a los trabajadores en sitios peligrosos. Los temas de entrenamiento incluyen descontaminación, productos químicos peligrosos y más.</p>
+                                <ul>
+                                    <li><strong>Certificado de Finalización</strong></li>
+                                </ul>
+                                <div class="mt-3">
+                                    <a class="btn btn-primary w-100 py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('HAZWOPER 40-Horas - $234.99')">HAZWOPER 40-Horas</a>
+                                    <a class="btn btn-primary w-100 py-2 fw-bold mt-2" href="#" onclick="return redirectToWhatsApp('HAZWOPER 24-Horas - $179.99')">HAZWOPER 24-Horas</a>
+                                    <a class="btn btn-primary w-100 py-2 fw-bold mt-2" href="#" onclick="return redirectToWhatsApp('HAZWOPER 8-Horas - $49')">HAZWOPER 8-Horas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="top-courses" class="full-width bg-light">
+                <div class="container-max">
+                    <h3 class="text-center text-primary mb-4">Cursos en Línea Más Populares</h3>
+                    
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <h4 class="course__group-title text-center">OSHA 10 horas</h4>
+                            <div class="course__card p-4">
+                                <h5 class="text-center">Industria General</h5>
+                                <div class="text-center">
+                                    <h5 class="course__price--original my-0">89</h5>
+                                    <h4 class="course__price--discount my-0">59.99</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar OSHA 10 Horas Industria General - $59.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                            <div class="course__card p-4 mt-3">
+                                <h5 class="text-center">Construcción</h5>
+                                <div class="text-center">
+                                    <h5 class="course__price--original my-0">89</h5>
+                                    <h4 class="course__price--discount my-0">59.99</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar OSHA 10 Horas Construcción - $59.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <h4 class="course__group-title text-center">OSHA 30 horas</h4>
+                            <div class="course__card p-4">
+                                <h5 class="text-center">Construcción</h5>
+                                <div class="text-center">
+                                    <h5 class="course__price--original my-0">189</h5>
+                                    <h4 class="course__price--discount my-0">159.99</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar OSHA 30 Horas Construcción - $159.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                            <div class="course__card p-4 mt-3">
+                                <h5 class="text-center">Industria General</h5>
+                                <div class="text-center">
+                                    <h5 class="course__price--original my-0">189</h5>
+                                    <h4 class="course__price--discount my-0">159.99</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar OSHA 30 Horas Industria General - $159.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <h4 class="course__group-title text-center">HAZWOPER</h4>
+                            <div class="course__card p-4">
+                                <h5 class="text-center">8-Horas de Refuerzo</h5>
+                                <div class="text-center">
+                                    <h4 class="course__price--discount my-0">49</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar HAZWOPER 8-Horas Refuerzo - $49')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                            <div class="course__card p-4 mt-3">
+                                <h5 class="text-center">24-Horas</h5>
+                                <div class="text-center">
+                                    <h4 class="course__price--discount my-0">179.99</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar HAZWOPER 24-Horas - $179.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                            <div class="course__card p-4 mt-3">
+                                <h5 class="text-center">40-Horas</h5>
+                                <div class="text-center">
+                                    <h5 class="course__price--original my-0">264.99</h5>
+                                    <h4 class="course__price--discount my-0">234.99</h4>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-primary py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Comprar HAZWOPER 40-Horas - $234.99')">Comprar Ahora</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="full-width">
+                <div class="container-max">
+                    <h2 class="text-center mb-4">¿Qué es la Capacitación de Certificación OSHA?</h2>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 mb-4 mb-md-0">
+                            <img src="https://www.osha.com/sites/osha/files/2024-05/Image_OSHA-Certification-Training_ExportasJPEG%402x.jpg" alt="Worker on crane" style="width:100%; border-radius:8px;">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>OSHA, la Administración de Seguridad y Salud Ocupacional, fue creada en 1970 para prevenir condiciones de trabajo peligrosas. Requieren que los trabajadores completen cursos de capacitación en cumplimiento de seguridad que cubran lecciones sobre la eliminación o disminución de lesiones, enfermedades y muertes ocupacionales para lograr este objetivo.</p>
+                            <p><strong><em>Nota: Técnicamente no existe tal cosa como "certificación OSHA." Al completar un curso del Programa de Capacitación de Extensión de OSHA, los graduados obtienen una tarjeta del DOL de OSHA de 10 horas o 30 horas.</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="full-width bg-light">
+                <div class="container-max">
+                    <h2 class="text-center mb-4">Cómo Obtener la Certificación de OSHA</h2>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 order-md-2 mb-4 mb-md-0">
+                            <img src="https://www.osha.com/sites/osha/files/2025-03/How_To_Become_OSHA_Certified_Image.jpg" alt="How to Become OSHA Certified" style="width:100%; border-radius:8px;">
+                        </div>
+                        <div class="col-12 col-md-6 order-md-1">
+                            <p>Aunque OSHA no "certifica" oficialmente a las personas, puedes obtener una tarjeta OSHA DOL de 10 o 30 horas al completar un curso autorizado de Capacitación Outreach de OSHA. Para hacerlo, debes:</p>
+                            <ul>
+                                <li>Inscribirte en un curso a través de un proveedor de capacitación autorizado por OSHA, como nosotros.</li>
+                                <li>Completar el programa de estudios, que cubre temas esenciales sobre seguridad en el lugar de trabajo.</li>
+                                <li>Aprobar el examen final para demostrar tu comprensión del material.</li>
+                                <li>Recibir un certificado de finalización de inmediato, y tu tarjeta oficial DOL llegará en aproximadamente dos semanas.</li>
+                            </ul>
+                            <div class="text-center mt-4">
+                                <a class="btn btn-primary px-5 py-3 fw-bold" href="#" onclick="return redirectToWhatsApp('Quiero información sobre cómo obtener la certificación OSHA')">Más Información por WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="full-width osha-blue py-5">
+                <div class="container-max">
+                    <h2 class="text-white text-center mb-4">¿Necesita Comprar Cursos al Por Mayor?</h2>
+                    <div class="text-center">
+                        <a class="btn btn-cta px-5 py-3 fw-bold" href="#" onclick="return redirectToWhatsApp('Quiero información sobre compra al por mayor de cursos OSHA')">Contáctenos por WhatsApp</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="full-width testimonials">
+                <div class="container-max">
+                    <h2 class="text-center mb-4">Testimonios de Clientes</h2>
+                    <blockquote class="text-center mx-auto" style="max-width:800px;">
+                        "¡El equipo de soporte realmente me ayudó! ¡Realmente necesitaba completar esta capacitación para el trabajo y definitivamente me ayudaron a lograrlo! ¡El mejor grupo de soporte con el que he tratado! ¡Gracias de nuevo!"
+                    </blockquote>
+                    <div class="text-center mt-4">
+                        <a class="btn btn-outline-primary px-5 py-2 fw-bold" href="#" onclick="return redirectToWhatsApp('Quiero ver más testimonios')">Leer Más Testimonios</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container-max">
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="d-flex flex-column">
+                            <p><img alt="OSHA.com" class="osha-logo" src="https://www.osha.com/themes/custom/osha/dist/img/oshacom-white.png" style="max-height:50px;"></p>
+                            <div class="mb-3">
+                                <p><strong>Contacto:</strong></p>
+                                <p><a href="#" onclick="return redirectToWhatsApp('Consulta desde footer')"><strong>WhatsApp: +1-604-243-3674</strong></a></p>
+                                <p><a href="#" onclick="return redirectToWhatsApp('Enviar mensaje desde footer')">Enviar Mensaje</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-8">
+                        <div class="row">
+                            <div class="col-6 col-md-4 mb-3">
+                                <h5>OSHA.com</h5>
+                                <ul style="list-style:none; padding-left:0;">
+                                    <li><a href="#" onclick="return redirectToWhatsApp('Sobre Nosotros')">About Us</a></li>
+                                    <li><a href="#" onclick="return redirectToWhatsApp('Contactar')">Contact Us</a></li>
+                                    <li><a href="#" onclick="return redirectToWhatsApp('FAQ')">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-4 mb-3">
+                                <h5>OSHA Training</h5>
+                                <ul style="list-style:none; padding-left:0;">
+                                    <li><a href="#" onclick="return redirectToWhatsApp('OSHA 10-hour Construction')">OSHA 10-hour</a></li>
+                                    <li><a href="#" onclick="return redirectToWhatsApp('OSHA 30-hour Construction')">OSHA 30-hour</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-4 mb-3">
+                                <h5>HAZWOPER</h5>
+                                <ul style="list-style:none; padding-left:0;">
+                                    <li><a href="#" onclick="return redirectToWhatsApp('HAZWOPER 8-hour')">HAZWOPER 8-hour</a></li>
+                                    <li><a href="#" onclick="return redirectToWhatsApp('HAZWOPER 40-hour')">HAZWOPER 40-hour</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-4 pt-4 border-top">
+                    <div class="col-12 text-center">
+                        <p>&copy;2024 OSHA.com - Todos los derechos reservados</p>
+                        <p><small>OSHA.com es un sitio web de propiedad privada que ofrece capacitación OSHA en línea.</small></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Función para redirigir a WhatsApp
+        function redirectToWhatsApp(message) {
+            const phoneNumber = "16042433674";
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
+            return false;
+        }
+        
+        // Toggle del menú en móviles
+        function toggleMenu() {
+            const menu = document.getElementById('siteNavbar');
+            menu.classList.toggle('active');
+        }
+        
+        // Switch de idioma
+        document.getElementById('lang-switch').addEventListener('change', function() {
+            if (this.checked) {
+                redirectToWhatsApp('Quiero cambiar al sitio en inglés');
+            }
+        });
+        
+        // Inicializar menú en móviles
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.innerWidth < 992) {
+                document.getElementById('siteNavbar').classList.remove('active');
+            }
+        });
+        
+        // Redimensionar ventana
+        window.addEventListener('resize', function() {
+            const menu = document.getElementById('siteNavbar');
+            if (window.innerWidth >= 992) {
+                menu.classList.add('active');
+            } else {
+                menu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
